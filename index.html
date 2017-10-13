@@ -1,156 +1,456 @@
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
-<title> Plan-E
-</title>
-    <link rel="icon" type="image/png" href="images/icon.png"/>
-<link rel="stylesheet" type="text/css" href="css/style.css"/>
-<link rel="stylesheet" type="text/css" href="css/fonts.css"/>
-<link rel="stylesheet" type="text/css" href="css/jq_fade.css"/>
-<link rel="stylesheet" type="text/css" href="styles/style.css" />
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-<!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+    <style>
+        #widget {
+            margin: 50px auto;
+        }
+    </style>
 
-<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
-<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css?family=Bad+Script|Indie+Flower" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css?family=Bad+Script|Clicker+Script|Indie+Flower" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
- <link href="https://fonts.googleapis.com/css?family=Diplomata|Josefin+Slab" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
-<script type="text/javascript" href="js/interaction.js"></script>
-<script type="text/javascript" href"js/jquery.innerfade.js"></script>
-<script type="text/javascript" href"js/jquery.js"></script>
-  <script type="text/javascript" src="js/wowslider.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="profile.css">
 
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.profile-widget.js"></script>
+
+    
+
+    <link rel="stylesheet" href="css/adipoli.css" type="text/css" media="screen" />
+    <link href="style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <title>Home | The Glamorous</title>
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="the glamorouschic, the glamorous chic,glamorouschic,glamorous,chic,theglamorous,fashion,fashion anf glamorous" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <!-- js -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- //js -->
+    <!-- start-smoth-scrolling-->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    
+    <!--//end-smoth-scrolling-->
+    <!--pop-up-->
+    <script src="js/menu_jquery.js"></script>
+    <!--//pop-up-->
 </head>
 <body>
-
-
-    <div class="main">
-        <div id="fix">
-<div class="header  ">
-
-    <!-- <div class="logo">
-        <img src="images/Plan-E.jpg">
-    </div> -->
-    <div class="title">
-            <h1> Plan-E
-               </h1>
-             <h2>We provide services at best price </h2>
-
+    <!--header-->
+    <div class="header">
+        <div class="container">
+            <div class="header-left">
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp
+            </div>
+            <div class="logo">
+                <a href="index.php"> <img src="images/logo.png" alt="" /></a>
+            </div>
+            <div class="top-nav">
+                <span class="menu"><img src="images/menu.png" alt="" /></span>
+                <ul>
+                    <li><a class="active" href="home.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <!-- script-for-menu -->
+                <script>
+                    $("span.menu").click(function () {
+                        $(".top-nav ul").slideToggle("slow", function () {
+                        });
+                    });
+                </script>
+                <!-- script-for-menu -->
+            </div>
+            
+            <!-- //search-scripts -->
+        </div>
     </div>
-    <!-- <img src="images/Plan-E.jpg"> -->
-</div>
-<div class="navigation  ">
-<ul>
-
-<li>
-HOME
-</li>
-
-<a href="events.html">
-<li> Events
-</li>
-</a>
-<a href="parties.html">
-<li>parties</li>
-</a>
-<a href="aboutus.html">
-<li>About US
-</li>
-</a>
-<a href="contactus.html">
-<li>Contact us
-</li>
-</a>
-</ul>
-</div>
-</div>
-<div  id="wowslider-container"class="main-image shadow ">
-    <div class="ws_images">
-        <ul>
-            <li>
-<img  id ="wows_0"src="images/p1.jpg" >
-</li>
-<li>
-<img id="wows_1"src="images/m2.jpg">
-</li>
-<li>
-    <img  id="wows_3"src="images/dates.jpg">
-</li>
-</ul>
-</div>
-</div>
-<div class="content">
-<h2>
-    Welcome to Plan-E
-</h2>
-<p>
-<strong>Plan-E </strong>is a full service event management holder in Delhi dedicated to quality and excellence . Since we are quite new in the market so we know our consumer preferences very well , we provide our best services at ur desired price . We manage events across Delhi
-No matter what your requirement may be, our first priority lies in gaining an in-depth understanding of how ur business works, what you hope to achieve.and what we can do to deliver results that exceed all expectations
-At <strong>Plan-E</strong>  you money is important to u and us
-We ensure cost effective services accountabilities and flexibility
-We treat event like it is
-Ours
-Whatever is ur budget we have solutions you will not find anywhere else.
-</p>
-
-<h3>We provide following services in delhi :- <h3>
-
-<ul>
-
-               <li>Parties</li>
-               <li>Personal Events</li>
-               <li>Couple Date</li>
-               <li>Catering</li>
-               <li>Music</li>
-               <li>Decorations</li>
+    <!--//header-->
+    <!--banner-->
+    <div class="banner">
+        <!-- banner-text Slider starts Here -->
+        <script src="js/responsiveslides.min.js"></script>
+        <script>
+            // You can also use "$(window).load(function() {"
+            $(function () {
+                // Slideshow 3
+                $("#slider3").responsiveSlides({
+                    auto: true,
+                    pager: true,
+                    nav: true,
+                    speed: 500,
+                    namespace: "callbacks",
+                    before: function () {
+                        $('.events').append("<li>before event fired.</li>");
+                    },
+                    after: function () {
+                        $('.events').append("<li>after event fired.</li>");
+                    }
+                });
+            });
+        </script>
 
 
-</ul>
-</div>
 
-<!--
-<div class="services">
-    <h2> Our Services</h2>
+        <!--//End-slider-script -->
+        <div id="top" class="callbacks_container">
 
-     <a href="#">
-     <img src="images/party.jpg">
-     <h4> Party</h4>
- </a>
+            <ul class="rslides" id="slider3">
 
+                <li>
 
-     <a href="#"><img src="images/wedding.jpg">
-        <h4>Wedding</h4>
-     </a>
-
-
-     <a href="events.html">
-        <h4>Events</h4>
-        <img src="images/events.jpg">
-     </a>
-
-    </div> -->
-
-
-<div class="nav-images">
-
-<div class="image1"> <a href="events.html"> <h3 >Date</h3></div> </a>
-<div class="image2"> <a href="events.html"><h3>Events</h3></a></div>
-<div class="image3"><a href="parties.html"><h3>Party</h3></a></div>
-</div>
-</div>
-<div class="reserved">
-<h4 >
-All Rights  Reserved to @ Plan-E
-</h4>
-</div>
+                    <div class="banner1">
+                    </div>
+                </li>
+                <li>
+                    <div class="banner1 banner2">
+                    </div>
+                </li>
+                <li>
+                    <div class="banner1 banner3">
+                    </div>
+                </li>
+            </ul>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <!--//banner-->
+    <!--welcome-->
+    <div class="welcome">
+        <div class="container">
 
 
+
+            <div class="column-b">
+                <section class="widget featured-widget">
+                    <h3 class="widget-title"><span>Recent Post</span></h3>
+                    <div class="list-carousel responsive">
+
+                        <ul class="featured-news clearfix">
+
+
+                        
+                            <li>
+                                <article>
+                                    <header class="clearfix">
+                                        <a href="maxi.html"><img src="images/maxi.jpg" class="responsive-img" height="200px" alt="" /></a>
+                                        
+
+                                    </header>
+                                    <div class="entry-content">
+                                        <h2><a href="maxi.html">The Maxi Dress trend ❤️.</a></h2>
+                                        <p> </p>
+                                        <p><a class="more-link" href="maxi.html">Read More</a></p>                                            <!--<a class="more-link" href="single.html">Learn more</a>-->
+                                    </div><!--entry-content-->
+                                </article>
+                            </li>
+
+
+                            
+
+
+
+
+                            <li>
+                                <article>
+                                    <header class="clearfix">
+                                        <a href="florals.html"><img src="images/florals.jpg" class="responsive-img" height="200px" alt="" /></a>
+                                        
+
+                                    </header>
+                                    <div class="entry-content">
+                                        <h2><a href="florals.html">Florals ❤</a></h2>
+                                        <p>&nbsp; </p>
+                                        <p><a class="more-link" href="florals.html">Read More</a></p>                                            <!--<a class="more-link" href="single.html">Learn more</a>-->
+                                    </div><!--entry-content-->
+                                </article>
+                            </li>
+
+
+
+
+                            <li>
+                                <article>
+                                    <header class="clearfix">
+                                        <a href="choker.html"><img src="images/choker.jpg" class="responsive-img" height="200px" alt="" /></a>
+                                       
+
+                                    </header>
+                                    <div class="entry-content">
+                                        <h2><a href="choker.html">The choker sweater trend from @sammydressfashion </a></h2>
+                                        <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </p>
+                                        <p><a class="more-link" href="choker.html">Read More</a></p>                                            <!--<a class="more-link" href="single.html">Learn more</a>-->
+                                    </div><!--entry-content-->
+                                </article>
+                            </li>
+
+
+
+
+                            <li>
+                                <article>
+                                    <header class="clearfix">
+                                        <a href="tee.html"><img src="images/tee.jpg" class="responsive-img" height="200px" alt="" /></a>
+                               
+
+                                    </header>
+                                    <div class="entry-content">
+                                        <h2><a href="tee.html">Message tee 😍</a></h2>
+                                        <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </p>
+                                        <p><a class="more-link" href="tee.html">Read More</a></p>                                            <!--<a class="more-link" href="single.html">Learn more</a>-->
+                                    </div><!--entry-content-->
+                                </article>
+                            </li>
+
+
+
+
+                           
+
+
+                            <li>
+                                <article>
+                                    <header class="clearfix">
+                                        <a href="lbd.html"><img src="images/lbd.jpg" class="responsive-img" height="200px" alt="" /></a>
+                                        
+
+                                    </header>
+                                    <div class="entry-content">
+                                        <h2><a href="lbd.html">The little black dress (LBD) 🎀</a></h2>
+                                        <p> </p>
+                                        <p><a class="more-link" href="lbd.html">Read More</a></p>                                            <!--<a class="more-link" href="single.html">Learn more</a>-->
+                                    </div><!--entry-content-->
+                                </article>
+                            </li>
+
+                            <li>
+                                <article>
+                                    <header class="clearfix">
+                                        <a href="perfectblack.html"><img src="images/v.jpg" class="responsive-img" height="200px" alt="" /></a>
+                                        
+                                    </header>
+                                    <div class="entry-content">
+                                        <h2><a href="perfectblack.html">PERFECT BLACK OUTFIT FROM DATE MY CLOSET</a></h2>
+                                        <p> </p>
+                                        <p><a class="more-link" href="perfectblack.html">Read More</a></p>                                            <!--<a class="more-link" href="single.html">Learn more</a>-->
+                                    </div><!--entry-content-->
+                                </article>
+                            </li>
+
+
+                        </ul><!--end:featured-news-->
+                       
+                        <div class="clear"></div>
+                        <div class="carousel-nav clearfix">
+                            <a id="prev-1" class="carousel-prev" href="#">&nbsp;</a>
+                            <a id="next-1" class="carousel-next" href="#">&nbsp;</a>
+                        </div><!--carousel-nav-->
+                    </div><!--end:list-carousel-->
+                </section><!--featured-widget-->
+
+            </div><!--column-b-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <!--//welcome-->
+    <!--banner-bottom-->
+    <div class="banner-bottom">
+        <div class="container">
+            <!--	<div class="col-md-4 banner-bottom-grids">-->
+            <center><p><font size="5.7" color="White"></font></p></center>
+            <!--</div>-->
+            <!--<div class="col-md-4 banner-bottom-grids">
+                <h4>Lorem ipsum dolor sit amet</h4>
+                <p>Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis. </p>
+            </div>
+            <div class="col-md-4 banner-bottom-grids">
+                <h4>Lorem ipsum dolor sit amet</h4>
+                <p>Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis. </p>
+            </div>-->
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <!--//banner-bottom-->
+    <!--work-->
+    <div class="work">
+        <div class="col-md-8 work-grids work-img">
+        </div>
+        <div class="col-md-4 work-grids">
+            <center>
+                <h3>Instagram </h3><center>
+
+
+
+                    <!-- LightWidget WIDGET -->
+                    
+
+
+
+                    <!--<p>Impedit quo minus id quod maxime placeat facere possimus omnis cum soluta nobis est eligendi optio cumque </p>
+                    <ul>
+                        <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">Rerum hic tenetur</a></li>
+                        <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">Molestiae non recusandae</a></li>
+                        <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">Voluptates repudiandae</a></li>
+                        <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">Necessitatibus saepe</a></li>
+                        <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">Debitis aut rerum</a></li>
+                    </ul>-->
+
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <div class="work">
+        <div class="col-md-4 work-grids work-grids-left">
+            <h3>About  Fashion World </h3>
+
+            <p><font size="3.3" color="black">Fashion industry is growing way too fast! And thats why we as teenagers are struggling to flow with the upcoming fashion trends & new styles.<br><br> Being a girl i know how much we love to look the best. In this journey of fashion. <br><br>I'm here to sort your problems a bit through my blog .</font></p>
+            <!--	<p>Impedit quo minus id quod maxime placeat facere possimus omnis cum soluta nobis est eligendi optio cumque </p>
+                <ul>
+                    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">Rerum hic tenetur</a></li>
+                    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">Molestiae non recusandae</a></li>
+                    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">Voluptates repudiandae</a></li>
+                    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">Necessitatibus saepe</a></li>
+                    <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">Debitis aut rerum</a></li>
+                </ul>-->
+
+        </div>
+        <div class="col-md-8 work-grids work-img work-img-btm">
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!--//work-->
+    <!--services-->
+    <!--<div class="services">
+
+        <div class="container">
+            <div class=" contact-form">
+                <h3 class="title">Message Me-></h3>
+                <form action="" method="POST">
+                    <div class="col-md-6 form-grids">
+                        <input type="text" name="nm" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+                        <input type="text" name="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+                        <input type="text" name="mobile" value="Mobile Number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone';}" required="">
+                    </div>
+                    <div class="col-md-6 form-grids">
+                        <textarea onfocus="this.value = '';" name="msg" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+                        <input type="submit" name="message" value="Submit" >
+                    </div>
+                    <div class="clearfix"> </div>
+                </form>
+            </div>
+            <!--FlexSlider-->
+    <script defer  src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function (slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+    </script>
+    <!--End-slider-script-->
+    </div>
+    </div>
+    <!--//services-->
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-left">
+                <!--| Design by <a href="http://skywebd.com">SkywebD</a>-->
+                <!-- hitwebcounter Code START -->
+                <a href="http://www.hitwebcounter.com" target="_blank">
+                    <img src="http://hitwebcounter.com/counter/counter.php?page=6422639&style=0009&nbdigits=5&type=page&initCount=0" title="install tracking codes" alt="install tracking codes" border="0">
+                </a>                                        <br />
+                <!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="Visitors Total"
+                                             target="_blank" style="font-family: Geneva, Arial, Helvetica;
+                                        font-size: 9px; color: #9C9795; text-decoration: none ;">
+                </a>
+
+
+                </p>
+
+            </div>
+
+
+            <div class="social-icons">
+
+                <ul>
+
+
+
+
+
+
+                    <li><a href="#" class="fb"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#" class="gg"></a></li>
+                    <li><a href="#" class="pn"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <!--//footer-->
+    <!--smooth-scrolling-of-move-up-->
+    
+    </script>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    <!--//smooth-scrolling-of-move-up-->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="js/jquery.carouFredSel-5.6.4.js"></script>
+
+
+    <script type="text/javascript" src="js/jquery.adipoli.js"></script>
+    <script type="text/javascript" src="js/custom.js" charset="utf-8"></script>
 </body>
 </html>
+
