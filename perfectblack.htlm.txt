@@ -1,0 +1,366 @@
+
+<!--
+Develop & Design By : Sanjay Bambhaniya (SkywebD)
+Website: http://skywebd.com/
+Facebook: http://www.facebook.com/SANJAYSB4300/
+Email:sanjaysb4300@gmail.com
+Mobile:9714124300
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Streetstyle ft. Hepburnette </title>
+
+
+  <link rel="stylesheet" href="social-buttons.css">
+
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Stylish Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+<!--pop-up-->
+<script src="js/menu_jquery.js"></script>
+<!--//pop-up-->
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<!--header-->
+	<div class="header">
+		<div class="container">
+			<div class="header-left">
+				<ul> 
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+					&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp
+				</ul>
+			</div>
+			<div class="logo">
+				<a href="index.php"> <img src="images/logo.png" alt=""/></a>
+			</div>
+			<div class="top-nav">
+				<span class="menu"> <img src="images/menu.png" alt=""/> </span>
+				<ul>
+					<li><a class="active" href="index.php">Home</a></li>
+					<li><a href="gallery.php">Gallery</a></li>
+					<li><a href="fashion.php">Fashion</a></li>
+					<li><a href="about.php">About</a></li>					
+					<li><a href="contact.php">Contact</a></li>
+				</ul>
+				<!-- script-for-menu -->
+				<script>					
+					$("span.menu").click(function(){
+						$(".top-nav ul").slideToggle("slow" , function(){
+						});
+					});
+				</script>
+				<!-- script-for-menu -->
+			</div>
+			<div class="search-box">
+				<div id="sb-search" class="sb-search">
+					<form>
+						<input class="sb-search-input" placeholder="search term..." type="search" name="search" id="search">
+						<input class="sb-search-submit" type="submit" value="">
+						<span class="sb-icon-search"> </span>
+					</form>
+				</div>
+			</div>
+			<div class="clearfix"> </div>	
+			<!-- search-scripts -->
+			<script src="js/classie.js"></script>
+			<script src="js/uisearch.js"></script>
+				<script>
+					new UISearch( document.getElementById( 'sb-search' ) );
+				</script>
+			<!-- //search-scripts -->
+		</div>
+	</div>	
+	<!--//header-->
+	<!--banner-->
+	<div class="banner1 about-bnr">
+	</div>	
+	<!--//banner-->
+	<!--about-->
+	
+	
+	
+	<div class="about"> 
+		<div class="container">
+			<h1 class="hdng">Streetstyle ft. Hepburnette  </h1>
+			<div class="about-text">
+			
+				<center>	<img src="img.php?post_id=142" class="img-responsive" alt=""/></center>
+			
+				<br>
+					<center>
+					<p><div>Hi guys!</div>
+<div>I hope you are doing great. As you guys know, I always try to create unique styles for you. When it comes to footwear, I believe they can make or break your outfit. Good footwear can complement your outfit and add to your style statement.</div>
+<div>In this post, I am featuring Hepburnette, one of the leading Fashion and Accessory brands.</div>
+<div>&nbsp;</div>
+<div>Before I come to the look, here is a short brief about the brand:</div>
+<div>Hepburnette is a fashion accessories brand. I came across the brand on Myntra and loved their collection of clutches. I cruised through their website and found them to be a credible destination for fashion accessories. They create products which embody exclusivity in them. They believe in delivering a unique customer experience along with their products. &nbsp;Most of their products are vegan and handcrafted. Hepburnette is a socially responsible brand as every time we buy any Hepburnette product, they share ice creams with underprivileged kids .</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>Stripes are strong this year. From Kendall Jenner to Gigi Hadid everyone is going gaga about stripes this season! Instead of buying a regular striped top, I wanted to buy footwear which was bang on trend. Hepburnette has a wide variety of embroidered and block printed bellies, tie and dyed espadrilles and denim heels but my heart got stuck on this particular footwear with horizontal stripes. &nbsp;I chose this pair of ankle strap sandals from their catalogue to create a casual look for college. These multi-colored ankle strap sandals are definitely a wardrobe essential. Stripes never go out of style, so these were an obvious choice.</div>
+<div>When I first saw this pair online, I fell in love with it and couldn&rsquo;t resist buying them.</div>
+<div>&nbsp;</div>
+<div>Now coming back to my look. I have put together a sober yet stylish casual day look.</div>
+<div>&nbsp;</div>
+<div>I have matched my footwear with my outfit. Denim shorts with a tuck-in tee can never go wrong for casual and smart looks. The right footwear can elevate your dressing and make your outfit stand out. The look is perfect for your college or a casual outing with friends.</div>
+<div>&nbsp;</div>
+<div><img src="upload/1503916057131.jpeg" alt="" align="none" /></div>
+<div>&nbsp;</div>
+<div>I would like to emphasis on the quality of these vegan leather sandals. The fabric is very soft and feels very comfortable all through the day. Also, since it has so many vibrant colours, it blends well with any outfit. The blue colour with stripes will go well with all the jeans in your wardrobe. This footwear is perfect for any occasion, beit a casual date or an official meeting.</div>
+<div>The padded sole makes it extra comfortable. It makes it easy to be on your toes specially if you have many errands in the day.</div>
+<div>The strap is very comfortable, fits perfectly around the ankle and is also adjustable. The ankle strap sandals are light-weight and I was comfortable wearing it all day long.</div>
+<div>&nbsp;</div>
+<div>&nbsp;<img style="-webkit-text-size-adjust: 100%;" src="upload/1503916531706.jpeg" alt="" align="none" /></div>
+<div>&nbsp;</div>
+<div>You can style it with a basic tucked-in t-shirt or shirt with plazzao pants.</div>
+<div>IT IS SAID THAT GIVE A GIRL THE RIGHT FOOTWEAR AND SHE CAN CONQUER THE WORLD.</div>
+<div>AND THE RIGHT FOOTWEAR IS HERE. WHAT ARE YOU WAITING FOR?!!!!!</div>
+<div>&nbsp;</div>
+<div>Get your pair of Hepburnette and rock it:) If you are looking to buy my pair, you can buy it from here. Their catalogue is also available on Amazon , Flipkart, limeroad and Paytm amongst others.</div>
+<div>Make sure to follow Hepburnette across all their social media platforms. &nbsp;Facebook | Instagram | Twitter</div>
+<div>Do check them out and style it your way.&nbsp;</div>
+<div>&nbsp;</div>
+<div>links for your reference-&nbsp;</div>
+<div>Website link-&nbsp;<a title="All collection" href="http://hepburnette.com/">All collection</a></div>
+<div>&nbsp;Product backlink -&nbsp;<a title="My footwear" href="http://hepburnette.com/footwear/835-marines-trendy-open-flats.html">My footwear</a></div>
+<div>&nbsp;</div>
+<div>I hope you guys loved the look.</div>
+<div>&nbsp;</div>
+<div>Keep loving and supporting.</div>
+<div>&nbsp;</div>
+<div>Much love:)</div>
+<div>&nbsp;</div></p>
+					</center>
+				
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		
+  
+	</div>
+	
+	
+	
+<center>	
+	<div class="social-sharing is-large" data-permalink="http://labs.carsonshold.com/social-sharing-buttons">
+
+    <!-- https://developers.facebook.com/docs/plugins/share-button/ -->
+    <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://theglamorouschic.com/viewpost.php??id=142" class="share-facebook">
+      <span class="icon icon-facebook" aria-hidden="true"></span>
+      <span class="share-title">Share</span>
+    </a>
+
+    <!-- https://dev.twitter.com/docs/intents -->
+    <a target="_blank" href="http://twitter.com/share?url=http://theglamorouschic.com/viewpost.php??id=142" class="share-twitter">
+      <span class="icon icon-twitter" aria-hidden="true"></span>
+      <span class="share-title">Tweet</span>
+    </a>
+
+   
+
+    <!-- https://developers.google.com/+/web/share/ -->
+    <a target="_blank" href="http://plus.google.com/share?url=http://theglamorouschic.com/viewpost.php??id=142" class="share-google">
+      <span class="icon icon-google" aria-hidden="true"></span>
+      <span class="share-title">+1</span>
+    </a>
+
+    
+
+  
+
+   
+
+    
+
+  </div>
+<div class="fb-comments" data-href="http://projects.skywebd.com/4-Charmytest/" data-width="850" data-numposts="5"></div></center>
+	<!--about-team-->
+	<div class="about-team">		
+		<div class="container">
+			<h3 class="title">Related Post</h3>
+			<div class="row team-row">
+							
+			
+			
+			
+			
+			
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<a href="viewpost.php?id=79"><img src="img.php?post_id=79" class="img-responsive zoom-img" alt="..."></a>
+						<div class="caption">
+							<h4><a href="viewpost.php?id=79">Retro red.</h4></a>
+							 <p> </p>						
+						</div>
+					</div>
+				</div>  			
+			
+			
+			
+			
+			
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<a href="viewpost.php?id=65"><img src="img.php?post_id=65" class="img-responsive zoom-img" alt="..."></a>
+						<div class="caption">
+							<h4><a href="viewpost.php?id=65">the elegant touch.</h4></a>
+							 <p><p>In This Textarea Only Description of Post.(Max 100Words Only and Dont insert Images)</p> </p>						
+						</div>
+					</div>
+				</div>  			
+			
+			
+			
+			
+			
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<a href="viewpost.php?id=18"><img src="img.php?post_id=18" class="img-responsive zoom-img" alt="..."></a>
+						<div class="caption">
+							<h4><a href="viewpost.php?id=18">Valentine date look</h4></a>
+							 <p> </p>						
+						</div>
+					</div>
+				</div>  			
+			
+			
+			
+			
+			
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<a href="viewpost.php?id=85"><img src="img.php?post_id=85" class="img-responsive zoom-img" alt="..."></a>
+						<div class="caption">
+							<h4><a href="viewpost.php?id=85">Valentine In Red.</h4></a>
+							 <p><br> </p>						
+						</div>
+					</div>
+				</div>  				<!--<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<img src="images/img7.jpg" class="img-responsive zoom-img" alt="...">
+						<div class="caption">
+							<h4><a href="#">Jark Kohnson</a></h4>
+							<p>Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>						
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<img src="images/img8.jpg" class="img-responsive zoom-img" alt="...">
+						<div class="caption">
+							<h4><a href="#">Goes Mehak</a></h4>
+							<p>Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>						
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<img src="images/img9.jpg" class="img-responsive zoom-img" alt="...">
+						<div class="caption">
+							<h4><a href="#">Jark Kohnson</a></h4>
+							<p>Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>						
+						</div>
+					</div>
+				</div>-->
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//about-team-->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-left">
+			<!--| Design by <a href="http://skywebd.com">SkywebD</a>-->
+			</div>
+			<div class="social-icons">
+				<ul>
+					<li><a href="#" class="fb"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#" class="gg"></a></li>
+					<li><a href="#" class="pn"></a></li>					
+				</ul>	
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>	
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+	
+	
+	
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="social-buttons.js"></script>
+
+  <!-- Don't use this code in your pages -->
+  <script>
+    // These analytics are here for the page at http://labs.carsonshold.com/social-share-buttons/
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-8697235-1']);
+    _gaq.push(['_setDomainName', 'carsonshold.com']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;g.src="//www.google-analytics.com/ga.js";s.parentNode.insertBefore(g,s);}(document,"script"));
+  </script>
+  
+  
+  
+</body>
+</html>
+<!--
+Develop & Design By : Sanjay Bambhaniya (SkywebD)
+Website: http://skywebd.com/
+Facebook: http://www.facebook.com/SANJAYSB4300/
+Email:sanjaysb4300@gmail.com
+Mobile:9714124300
+-->
